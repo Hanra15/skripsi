@@ -33,6 +33,10 @@
   <link href="<?= base_url() ?>assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="<?= base_url() ?>assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+  <!-- Make sure you put this AFTER Leaflet's CSS -->
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
   <!-- Template Main CSS File -->
   <link href="<?= base_url() ?>assets/css/style.css" rel="stylesheet">
 
@@ -214,7 +218,7 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>prodi/analis">Kimia Analis</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>prodi/farmasi">Farmasi</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>rpl">Rekayasa Perangkat Lunak</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>prodi/rpl">Rekayasa Perangkat Lunak</a></li>
 
             </ul>
           </div>
@@ -250,6 +254,8 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   <div id="preloader"></div>
   <!-- Vendor JS Files -->
+
+
   <script src="<?= base_url() ?>assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="<?= base_url() ?>assets/vendor/aos/aos.js"></script>
   <script src="<?= base_url() ?>assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

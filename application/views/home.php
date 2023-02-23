@@ -108,7 +108,7 @@
 
       </div>
 
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1496.3847423621885!2d106.77694918151498!3d-6.554203808756524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c386205f18f9%3A0xaf869d94c5b9c42a!2sSMK%20Analis%20Kimia%20Nusa%20Bangsa!5e0!3m2!1sen!2sid!4v1676989357888!5m2!1sen!2sid" width="100%" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-aos="fade-down"></iframe>
+      <div id="map" style="height: 650px;"></div>
 
     </div>
   </section><!-- End Counts Section -->
@@ -392,3 +392,13 @@
   </section><!-- End Contact Section -->
 
 </main><!-- End #main -->
+
+<script>
+  var map = L.map('map').setView([-6.5533191, 106.7747654], 19, 50);
+  var marker = L.marker([-6.5533191, 106.7747654]).addTo(map);
+
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(map);
+</script>
