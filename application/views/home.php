@@ -396,6 +396,7 @@
 <script>
   var map = L.map('map').setView([-6.5533191, 106.7747654], 19, 50);
   var marker = L.marker([-6.5533191, 106.7747654]).addTo(map);
+  marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
 
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
