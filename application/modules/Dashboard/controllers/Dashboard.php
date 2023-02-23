@@ -1,7 +1,8 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-class Dashboard extends MX_Controller {
+class Dashboard extends MX_Controller
+{
 
 	/**
 	 * Index Page for this controller.
@@ -20,6 +21,7 @@ class Dashboard extends MX_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('dashboard');
+
+		$this->template->load('templates/template_admin', 'dashboard');
 	}
 }
