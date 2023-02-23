@@ -190,21 +190,21 @@
           <div class="col-md-2 footer-links">
             <h4>Link</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Beranda</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Sambutan</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Visi & Misi</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Prestasi</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Galeri</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>">Beranda</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>profil/sambutan">Sambutan</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>profil/visimisi">Visi & Misi</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>profil/prestasi">Prestasi</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>profil/galeri">Galeri</a></li>
             </ul>
           </div>
 
           <div class="col-md-2 footer-links">
             <h4>Informasi</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Kegiatan Sekolah</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Informasi Terkini</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Karya Ilmiah</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Alumni</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>kegiatan">Kegiatan Sekolah</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>informasi">Informasi Terkini</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>karya">Karya Ilmiah</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>alumni">Alumni</a></li>
 
             </ul>
           </div>
@@ -212,9 +212,9 @@
           <div class="col-md-2 footer-links">
             <h4>Kompetensi Keahlian</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Kimia Analis</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Farmasi</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Rekayasa Perangkat Lunak</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>prodi/analis">Kimia Analis</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>prodi/farmasi">Farmasi</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>rpl">Rekayasa Perangkat Lunak</a></li>
 
             </ul>
           </div>
@@ -229,8 +229,8 @@
               <a href="https://www.youtube.com/channel/UC6MkY0eGk-jf1THZZP-rpWA" class="youtube"><i class="bi bi-youtube"></i></i></a>
             </div>
             <p class="mt-4">
-              <strong>Telepon:</strong> <br>(0251) 7536316<br>
-              <strong>Email:</strong> <br> smkaknusabangsa@gmail.com<br>
+              <strong>Telepon:</strong> <br><a href="tel:02517536316" class="text-white text-bold">(0251) 7536316</a><br>
+              <strong>Email:</strong> <br><a href="mailto:smkaknusabangsa@gmail.com" class="text-white text-bold">smkaknusabangsa@gmail.com</a> <br>
             </p>
 
           </div>

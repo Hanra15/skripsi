@@ -1278,6 +1278,118 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Our Projects Section
+--------------------------------------------------------------*/
+.projects .portfolios1-flters {
+  padding: 0;
+  margin: 0 auto 20px auto;
+  list-style: none;
+  text-align: center;
+}
+
+.projects .portfolios1-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 10px;
+  line-height: 1;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.projects .portfolios1-flters li:hover,
+.projects .portfolios1-flters li.filter-active {
+  color: var(--color-primary);
+}
+
+.projects .portfolios1-flters li:first-child {
+  margin-left: 0;
+}
+
+.projects .portfolios1-flters li:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 575px) {
+  .projects .portfolios1-flters li {
+    font-size: 14px;
+    margin: 0 5px;
+  }
+}
+
+.projects .portfolios1-content {
+  position: relative;
+  overflow: hidden;
+}
+
+.projects .portfolios1-content img {
+  transition: 0.3s;
+}
+
+.projects .portfolios1-content .portfolios1-info {
+  opacity: 0;
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+}
+
+.projects .portfolios1-content .portfolios1-info h4 {
+  font-size: 14px;
+  padding: 5px 10px;
+  font-weight: 400;
+  color: #fff;
+  display: inline-block;
+  background-color: var(--color-primary);
+}
+
+.projects .portfolios1-content .portfolios1-info p {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  display: inline-block;
+  left: 0;
+  right: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.projects .portfolios1-content .portfolios1-info .preview-link,
+.projects .portfolios1-content .portfolios1-info .details-link {
+  position: absolute;
+  left: calc(50% - 40px);
+  font-size: 26px;
+  top: calc(50% - 14px);
+  color: #fff;
+  transition: 0.3s;
+  line-height: 1.2;
+}
+
+.projects .portfolios1-content .portfolios1-info .preview-link:hover,
+.projects .portfolios1-content .portfolios1-info .details-link:hover {
+  color: var(--color-primary);
+}
+
+.projects .portfolios1-content .portfolios1-info .details-link {
+  left: 50%;
+  font-size: 34px;
+  line-height: 0;
+}
+
+.projects .portfolios1-content:hover .portfolios1-info {
+  opacity: 1;
+}
+
+.projects .portfolios1-content:hover img {
+  transform: scale(1.1);
+}
+
+/*--------------------------------------------------------------
 # Our Team
 --------------------------------------------------------------*/
 .team {
